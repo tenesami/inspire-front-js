@@ -10,28 +10,32 @@
 
 <body>
     <h2>Inspirational Quotes</h2>
-    <div id="container">
 
-    </div>
+    <form id="input_form">
+        <div>
+            <label for="topic">Topic: </label>
+            <input id="topic" name="topic" />
+        </div>
 
-    <form>
-        <label for="topic">Topic: </label>
-        <input id="input_topic" type="text">
-    </form>
-    <p>
-        <form>
+        <div>
             <label for="content">Content: </label>
-            <textarea id="input_content" type="text"> </textarea>
-        </form>
-    </p>
+            <textarea id="content" name="content"> </textarea>
+        </div>
 
-    <p>
-        <form>
-            <label for="user">UserName: </label>
-            <input id="input_user" type="text">
-        </form>
-    </p>
+        <div>
+            <label for="username">UserName: </label>
+            <input id="username" name="username" />
+        </div>
 
+        <div>
+            <input type="submit" value="submit" />
+        </div>
+
+        <div id="container">
+
+        </div>
+
+    </form>
     <script src="index.js"></script>
 </body>
 
