@@ -6,30 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inspirational Quotes</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!-- Bootstap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <script src="index.js" defer></script>
 </head>
 
 <body>
-    <h2>Inspirational Quotes</h2>
+    <h2 class="m-3">Inspirational Quotes</h2>
 
     <hr>
+    <h5 class="m-3">Write your favorite Quotes</h5>
+    <hr>
     <form id="input_form">
-        <div>
-            <label for="topic">Topic: </label>
-            <input id="topic" name="topic" />
+        <div class="col-md-4 mt-3">
+            <label for="topic">Title of your Quote: </label>
+            <input id="topic" type="text" class="form-control">
         </div>
 
-        <div>
-            <label for="content">Content: </label>
-            <textarea id="content" name="content"> </textarea>
+        <div class="col-md-6 mt-3">
+            <label for="content">Your favorite Quote: </label>
+            <textarea id="content" type="text" class="form-control"> </textarea>
         </div>
 
-        <div>
+        <div class="col-md-4 mt-3">
             <label for="username">UserName: </label>
-            <input id="username" name="username" />
+            <input id="username" type="text" class="form-control" />
         </div>
 
         <div>
-            <input type="submit" value="submit" />
+            <input type="submit" value="submit" class="m-3" />
         </div>
 
     </form>
@@ -37,8 +45,15 @@
     </div>
     <div id="dispQuotes"></div>
 
-    <script src="index.js"></script>
+    <!-- <footer class="fixed-bottom ">
+        <p>Student Tesfaye Atomsa<br>
+            <a href="https://github.com/tenesami?tab=repositories">Github </a></p>
+    </footer> -->
 
+    <!-- js bootstrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
 
 </html>
