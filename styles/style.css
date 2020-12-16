@@ -1,0 +1,16 @@
+ body {
+     font-family: 'Open Sans', sans-serif;
+     background-image: linear-gradient(to bottom right, #b0e7e9, rgb(247, 247, 243));
+     padding-bottom: 12rem;
+     text-align: center;
+ }
+ 
+ h2,
+ h5 {
+     font-family: 'Abril Fatface', Open Sans, sans-serif, cursive;
+     text-align: center;
+ }
+ 
+ div {
+     margin: 12px;
+ }
